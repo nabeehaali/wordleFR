@@ -1,5 +1,5 @@
 var height = 6; //number of guesses
-var width = 5; //length of the word
+var width = 9; //length of the word
 
 var row = 0; //current guess (attempt #)
 var col = 0; //current letter for that attempt
@@ -7,11 +7,10 @@ var col = 0; //current letter for that attempt
 var gameOver = false;
 // var word = "SQUID";
 var wordList = [
-  "legal",
-  "trace",
-  "livre",
-  "payer",
-  "fraud",
+  "juridique",
+  "depistage",
+  "paiements",
+  "penalites",
 ];
 
 var guessList = [
